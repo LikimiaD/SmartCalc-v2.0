@@ -1,0 +1,29 @@
+name: Linter check, cppcheck, and code coverage
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install build essentials, clang-format, cppcheck, lcov, libgtest-dev, and xmake
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential clang-format cppcheck lcov libgtest-dev
+
+    - name: Run lint
+      run: cd src/ && make lint
+
+    - name: Run cppcheck
+      run: cd src/ && cppcheck --language=c++ **/*.cpp **/*.h
+
+    - name: Run build and tests with xmake
+      run: |
+        cd src/ && make

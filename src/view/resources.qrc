@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>css/style.qss</file>
+        <file>svg/credit.svg</file>
+        <file>svg/deposit.svg</file>
+    </qresource>
+</RCC>

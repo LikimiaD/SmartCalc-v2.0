@@ -1,0 +1,121 @@
+QWidget#app_window {
+  background-color: #2e3440;
+}
+QWidget#app_static {
+  background-color: #3b4252;
+  border-radius: 15%;
+}
+QPushButton#button {
+  background-color: #2e3440;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#button:hover {
+  background-color: #4c566a;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#equal_button {
+  background-color: #88c0d0;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#equal_button:hover {
+  background-color: #81a1c1;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#clear_button {
+  background-color: #bf616a;
+  border-radius: 15%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#clear_button:hover {
+  background-color: #d08770;
+  border-radius: 15%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#func_button {
+  background-color: #2e3440;
+  border-radius: 25%;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#func_button:hover {
+  background-color: #4c566a;
+  border-radius: 25%;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QLabel#equal_box {
+  background-color: #3b4252;
+  color: white;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QLabel#answer_box {
+  background-color: #3b4252;
+  color: #bf616a;
+  text-align: right;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  border: 0px;
+}
+QPushButton#credit_button {
+  background-color: #3b4252;
+  border: 0px;
+}
+QPushButton#credit_button:hover {
+  background-color: #4c566a;
+  border: 0px;
+}
+QPushButton#deposit_button {
+  background-color: #3b4252;
+  border: 0px;
+}
+QPushButton#deposit_button:hover {
+  background-color: #4c566a;
+  border: 0px;
+}
