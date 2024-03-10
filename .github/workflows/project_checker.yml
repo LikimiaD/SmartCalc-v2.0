@@ -13,10 +13,13 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Install build essentials, clang-format, cppcheck, lcov, libgtest-dev, and xmake
+    - name: Install build essentials
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential clang-format cppcheck lcov libgtest-dev
+
+    - name: Install Qt5
+      run: sudo apt-get install -y qt5-default qt5-qmake qtbase5-dev qtdeclarative5-dev libqt5widgets5 libqt5charts5-dev
 
     - name: Run lint
       run: cd src/ && make lint
